@@ -34,7 +34,16 @@ while whileLoop <= 5:
 # The highest number.
 # The lowest number.
 # The average of all the numbers.
-
+whileLoop = 1
+while whileLoop <= 5:
+    print()
+    whileLoop += 1
+    forLoop = 1
+    for forLoop in range(1, whileLoop):
+        print(forLoop, end="")
+        breakpoint
+    print(whileLoop)
+    whileLoop += 1
 # Question 4:
 # Vowel Counter - Write some code that prompts the user to enter a string. The program should then display the number of vowels in the string. IE. If the user enters "Hello World", the program should display 3.
 # the vowels are a, e, i, o, u
