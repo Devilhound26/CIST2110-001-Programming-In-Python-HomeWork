@@ -25,8 +25,13 @@ else:
 # 12345
 whileLoop = 1
 while whileLoop <= 5:
-    print(whileLoop)
+    forLoop = 1
+    while forLoop <= whileLoop:
+        print(forLoop, end='')
+        forLoop += 1
+    print()
     whileLoop += 1
+    breakpoint 
 
 # Question 3:
 # Write a Python program that prompts the user to input 10 numbers. After all the numbers are inputted, the program should display:
@@ -34,16 +39,21 @@ while whileLoop <= 5:
 # The highest number.
 # The lowest number.
 # The average of all the numbers.
-whileLoop = 1
-while whileLoop <= 5:
-    print()
-    whileLoop += 1
-    forLoop = 1
-    for forLoop in range(1, whileLoop):
-        print(forLoop, end="")
-        breakpoint
-    print(whileLoop)
-    whileLoop += 1
+print(" ")
+inputNumber = int(input("Please enter a number: "))
+highestNumber = inputNumber
+lowestNumber = inputNumber
+totalNumber = inputNumber
+for i in range(1, 10):
+    inputNumber = int(input("Please enter a number: "))
+    totalNumber += inputNumber
+    if inputNumber > highestNumber:
+        highestNumber = inputNumber
+    if inputNumber < lowestNumber:
+        lowestNumber = inputNumber
+print("The highest number is: ", highestNumber)
+print("The lowest number is: ", lowestNumber)
+print("The average of all the numbers is: ", totalNumber/10)
 # Question 4:
 # Vowel Counter - Write some code that prompts the user to enter a string. The program should then display the number of vowels in the string. IE. If the user enters "Hello World", the program should display 3.
 # the vowels are a, e, i, o, u
