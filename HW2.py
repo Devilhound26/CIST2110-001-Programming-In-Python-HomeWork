@@ -8,12 +8,21 @@
 # If the age is less than 13, print "You are a child."
 # If the age is between 13 and 19, print "You are a teenager."
 # If the age is 20 or older, print "You are an adult."
+<<<<<<< HEAD
 inputAge = int(input("Please enter your age: "))
 if inputAge < 13:
     print("You are a child.")
 elif inputAge >= 13 and inputAge <= 19:
     print("You are a teenager.")    
 else:    
+=======
+inputAge = int(input("Enter your age: "))
+if inputAge < 13:
+    print("You are a child.")
+elif inputAge >= 13 and inputAge <= 19:
+    print("You are a teenager.")
+else:
+>>>>>>> 64ab6df10b11dc00f818323dbaa3e9852517b62f
     print("You are an adult.")
 
 # Question 2:
@@ -25,6 +34,7 @@ else:
 # 12345
 whileLoop = 1
 while whileLoop <= 5:
+<<<<<<< HEAD
     print()
     whileLoop += 1
     forLoop = 1
@@ -34,6 +44,11 @@ while whileLoop <= 5:
         
         
     
+=======
+    print(whileLoop)
+    whileLoop += 1
+
+>>>>>>> 64ab6df10b11dc00f818323dbaa3e9852517b62f
 # Question 3:
 # Write a Python program that prompts the user to input 10 numbers. After all the numbers are inputted, the program should display:
 
