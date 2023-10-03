@@ -59,3 +59,10 @@ print("The average of all the numbers is: ", totalNumber/10)
 # the vowels are a, e, i, o, u
 # Hint: convert the string to lowercase and use a for loop with a counter variable and an if statement
 
+inputString = input("Please enter a string: ")
+inputString = inputString.lower()
+vowelCount = 0
+for i in inputString:
+    if i == 'a' or i == 'e' or i == 'i' or i == 'o' or i == 'u':
+        vowelCount += 1
+print("The number of vowels in the string is: ", vowelCount)
