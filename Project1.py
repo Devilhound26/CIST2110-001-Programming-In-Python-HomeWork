@@ -119,8 +119,6 @@ else:
 
 # Create a function to display the final score, which takes the score as a parameter and displays a message.
 # Loops:
-
-
 # Use a for or while loop to iterate through the questions.
 # Variable Casting:
 # Ensure that user input is cast and checked appropriately to avoid errors during execution.
