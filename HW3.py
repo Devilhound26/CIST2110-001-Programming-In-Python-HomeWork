@@ -1,5 +1,5 @@
 # HW3.py
-# Author:
+# Author:jonathan welch 
 
 # This Homework assignment is meant to test your ability to make functions within python as well as importing and using modules. This assignment might require you to do some research on your own. If you get stuck, try googling the problem, especially when it comes to importing and using the different modules.
 
