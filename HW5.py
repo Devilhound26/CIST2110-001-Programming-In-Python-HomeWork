@@ -27,11 +27,17 @@ for i in reversed(a):
 # Question 8: Using the list from question 1, create a for loop that prints each element of the list and its index (hint use the enumerate() function)
 for i, v in enumerate(a):
     print(i, v)
+
 # Question 9: Using this list of lists, print the first element of the second list (hint: use indexing)
 list = [[1,2,3],[4,5,6],[7,8,9]]
-for item in list:
-    print(item)
+print(list[1][0])
 
 # Question 10: Create a function that will take in a list and return the list in reverse order
 # Hint: You can take in a list as a parameter and return a list
+def reverse_list(lst):
+    return lst[::-1]
 
+list = [1,2,3,4,5,6,7,8,9]
+list_reverse = reverse_list(list)
+print(list_reverse)
+print(type(list_reverse))
