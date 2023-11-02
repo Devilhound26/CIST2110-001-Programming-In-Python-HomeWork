@@ -1,5 +1,5 @@
 # HW5.py
-# Author:
+# Author:Jonathan Welch
 
 # This homework assignment tests on list in python
 
