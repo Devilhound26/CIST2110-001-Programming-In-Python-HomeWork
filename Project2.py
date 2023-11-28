@@ -124,12 +124,15 @@ with open("contacts.csv", "r") as file:
             "Email": row[2],
             "Birthday": dt.datetime.strptime(row[3], "%m/%d/%Y"),
         }
-    # How many emails are yahoo emails?
+# How many emails are yahoo emails?
+print(len([name for name in contacts if contacts[name]["Email"].endswith("yahoo.com")]))
 
-    # How many .org emails are there?
+# How many contacts have a birthday in January?
+print(len([name for name in contacts if contacts[name]["Birthday"].month == 1]))
 
-    # How many contacts have a birthday in January?
-
+# How many .org emails are there?
+print(len([name for name in contacts if contacts[name]["Email"].endswith(".org")]))
+ 
 
 if __name__ == "__main__":
     main()
