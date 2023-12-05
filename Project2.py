@@ -1,5 +1,5 @@
 # Project 2
-# Name:
+# Name: Jonathan Welch 
 # Project 2 will test on topics learned in class so far. You will be creating a contact list program with an external csv file that will store the contacts. The program will have the following features:
 # 1. Add contact
 # 2. View contacts
