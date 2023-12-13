@@ -16,8 +16,8 @@
 # VIEW (at the top) -> WORD WRAP
 
 # Import statements:
-import pytest 
-import Project3Tests
+import pytest
+from Project3 import Book, User, Library
 # Project outline and requirements:
 
 # OUTLINE - The LMS will consist of the following classes and methods:
@@ -34,6 +34,10 @@ import Project3Tests
 #    b. check_out - sets borrowed to True and returns a message that the book has been checked out
 #    c. check_in - sets borrowed to False and returns a message that the book has been checked in
 #    d. borrowed - returns True if the book is borrowed and False if the book is not borrowed
+# Replace the undefined variable "isbn" with a valid value or remove the line if it is not needed.
+int = print("isbn")
+print
+
 
 
 # 2. Create a User class that has the following attributes (create a __init__ method)):
