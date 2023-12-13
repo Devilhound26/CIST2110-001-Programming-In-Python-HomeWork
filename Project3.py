@@ -16,7 +16,8 @@
 # VIEW (at the top) -> WORD WRAP
 
 # Import statements:
-
+import pytest 
+import Project3Tests
 # Project outline and requirements:
 
 # OUTLINE - The LMS will consist of the following classes and methods:
